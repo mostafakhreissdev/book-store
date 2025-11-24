@@ -6,7 +6,7 @@ function Services() {
       <h1 className="container">Our Services</h1>
       <ul className="container">
         <li>Search over thousands of books</li>
-        <li>Search by category, author, or title</li>
+        <li>Search by title</li>
         <li>Secure online purchases</li>
         <li>Order based on your interests</li>
       </ul>

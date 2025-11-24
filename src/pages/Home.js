@@ -6,7 +6,6 @@ function Home() {
 
   const [search, setSearch] = useState("");
 
-  // filter books based on the search text
   const filteredBooks = books.filter(book =>
     book.title.toLowerCase().includes(search.toLowerCase())
   );
@@ -15,7 +14,6 @@ function Home() {
     <div className="container" style={{ padding: "20px" }}>
       <h1>Welcome to MagicBook online store</h1>
 
-      {/* Search Input */}
       <input
         type="text"
         placeholder="Search for a book..."
